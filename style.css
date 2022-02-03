@@ -1,3 +1,32 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
 body {
   background-color: #f3f3f3;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+}
+.main-nav {
+}
+
+.nav-item {
+  padding: 12px 24px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.nav-item:hover {
+  background-color: white;
+  color: #333;
 }
