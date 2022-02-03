@@ -16,33 +16,9 @@ body {
   background-color: rgb(255, 160, 144);
 }
 
-.float-way .box {
-  max-width: 30%;
-  float: left;
-}
-
-.inline-block-way .box {
-  /* inline block */
-  display: inline-block;
-  max-width: 30%;
-  min-height: 215px;
-  vertical-align: top;
-}
-
 .box-1 {
-  /* max-width: 49%; */
 }
 .box-2 {
-  /* max-width: 49%; */
-  /* float: right; */
 }
 .box-3 {
-  /* max-width: initial; */
-}
-.clearfix {
-  clear: both;
-}
-
-.good-float a {
-  float: right;
 }
