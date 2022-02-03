@@ -6,11 +6,20 @@ body {
 }
 
 .container {
+  /* ijungiam flex */
+
+  display: flex;
+  /* eiles tvarka ir kryptis */
+  flex-direction: row;
+  /* jei neisitenka perkelia i nauja eilute */
+  flex-wrap: wrap;
+
   padding: 10px;
   border: 1px solid #000;
 }
 
 .box {
+  max-width: 28%;
   padding: 10px;
   margin: 10px;
   background-color: rgb(255, 160, 144);
